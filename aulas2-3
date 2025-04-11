@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -33,31 +33,67 @@
             display: block;
             margin: 20px auto; /* Centraliza a imagem com espaçamento */
         }
+
+        /* Estilos para a barra de navegação */
+        nav {
+            background-color: #003366;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
+    <!-- Barra de navegação -->
+    <nav>
+        <a href="#informacoes-pessoais">Informações Pessoais</a>
+        <a href="#outras-informacoes">Outras Informações</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#referencia">Referência Adicional</a>
+    </nav>
+
     <!-- Imagem redonda -->
-    <img src= "https://cdn-icons-png.flaticon.com/512/3135/3135785.png" alt="Soft Skills" class="imagem-cl">
+    <img src="https://cdn-icons-png.freepik.com/512/6614/6614677.png" alt="Currículo" class="imagem-soft-skills">
 
     <h1>Currículo - Lucas Gabriel Pinheiro dos Santos</h1>
-    <p> O <i>currículo</i> é um documento abrangente que mostra aos empregadores seu histórico acadêmico e profissional. 
-   
+    <p>O <i>currículo</i> é um documento abrangente que mostra aos empregadores seu histórico acadêmico e profissional.</p>
 
-    <h3> Informações pessoais:</h3>
-    <ol>
-        <li><b>Idade:</b>19.</li>
-        <li><b>Endereço:</b>Rua Alfredo Favaro - 401, Cornélio Procópio, Paraná.</li>
-        <li><b>E-mail:</b>lucas.gabrielpnr@gmail.com.</li>
-    </ol>
-
-    <h3>Outras Informações:</h3>
+    <h3 id="informacoes-pessoais">Informações pessoais:</h3>
     <ul>
-        <li><b>Formação Acadêmica:</b>Universidade Tecnológica Federal do Paraná.</li>
-        <li><b>Cursos Complementares:</b> Introdução ao Front-end e Scrum na prática.</li>
-        <li><b>Informática:</b>Microsoft Word e Excel (Avançado), C++ (Básico).</li>
+        <li><b>Idade: </b>19.</li>
+        <li><b>Endereço: </b>Rua Alfredo Favaro - 401, Cornélio Procópio, Paraná.</li>
+        <li><b>E-mail: </b>lucas.gabrielpnr@gmail.com.</li>
     </ul>
 
-    <h4>Referência adicional:</h4>
+    <h3 id="outras-informacoes">Outras Informações:</h3>
+    <ul>
+        <li><b>Formação Acadêmica: </b>Universidade Tecnológica Federal do Paraná.</li>
+        <li><b>Cursos Complementares: </b>Introdução ao Front-end e Scrum na prática.</li>
+        <li><b>Informática: </b>Microsoft Word e Excel (Avançado), C++ (Básico).</li>
+    </ul>
+
+    <h3 id="hobbies">Hobbies:</h3>
+    <ul>
+        <li><b>Futebol</b></li>
+        <li><b>Natação</b></li>
+        <li><b>Basquete</b></li>
+    </ul>
+
+    <h4 id="referencia">Referência adicional:</h4>
     <p>Você pode aprender mais sobre o conceito de <i>Curriculum vitae</i> nesse site:
-        <a href="https://blog.portalpos.com.br/o-que-e-curriculo/" target="_blank">
+        <a href="https://blog.portalpos.com.br/o-que-e-curriculo/" target="_blank">portalpos</a>.
+    </p>
+
+</body>
+</html>
